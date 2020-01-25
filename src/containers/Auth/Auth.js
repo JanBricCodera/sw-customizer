@@ -125,20 +125,22 @@ class Auth extends Component {
               style={{
                 textAlign: "left",
                 display: "block",
-                marginLeft: "10px"
+                marginLeft: "10px",
+                color: "white"
               }}
             >
-              <h5>Sign-up</h5>
+              <h4>Sign-up</h4>
             </span>
           ) : (
             <span
               style={{
                 textAlign: "left",
                 display: "block",
-                marginLeft: "10px"
+                marginLeft: "10px",
+                color: "white"
               }}
             >
-              <h5>Sign-In</h5>
+              <h4>Sign-In</h4>
             </span>
           )}
           {form}

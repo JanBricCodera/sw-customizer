@@ -7,7 +7,7 @@ import classes from "./CheckoutSummary.module.css";
 const checkoutSummary = props => {
   return (
     <div className={classes.CheckoutSummary}>
-      <h1>Enter order information</h1>
+      <h1>Preview of your customized sandwich</h1>
       <div style={{ width: "100%", margin: "auto" }}>
         <Sandwich ingredients={props.ingredients} />
       </div>
